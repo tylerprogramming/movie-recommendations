@@ -41,12 +41,20 @@ pip install -r requirements.txt
 npm install
 ```
 
-4. Run the Application
+4. Run the Frontend
 ```bash
-# Start backend
-cd backend/movie_recommendations
-python -m movie_recommendations.main
-
 # Start frontend (in a new terminal)
 npm run dev
+```
+
+## Docker Compose Command
+### Go inside docker-weaviate folder and then run the following command:
+```bash
+docker compose up
+```
+
+## Run the Flask Backend
+### Go inside movie-recommendations folder and then run the following command:
+```bash
+python server.py
 ```
