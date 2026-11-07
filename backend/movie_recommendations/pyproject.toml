@@ -3,9 +3,11 @@ name = "movie_recommendations"
 version = "0.1.0"
 description = "movie_recommendations using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
-requires-python = ">=3.10,<=3.13"
+requires-python = ">=3.10,<3.14"
 dependencies = [
-    "crewai[tools]>=0.85.0,<1.0.0",
+    "crewai>=1.15,<2",
+    "weaviate-client>=4.10,<5",
+    "python-dotenv>=1.0,<2",
 ]
 
 [project.scripts]

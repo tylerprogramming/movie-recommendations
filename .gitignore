@@ -25,3 +25,8 @@ dist-ssr
 
 .env
 __pycache__
+.venv
+
+# Created at runtime: poster download (weaviate_setup.py) and image uploads (server.py)
+scratch/
+temp_uploads/

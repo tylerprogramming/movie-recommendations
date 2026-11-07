@@ -1,0 +1,12 @@
+# Backend dependencies. Install from the repo root:
+#   pip install -r requirements.txt
+# server.py (Flask, port 5111) imports backend.* and the CrewAI flow, so run it from the root too.
+crewai>=1.15,<2
+flask>=3.0,<4
+flask-cors>=5,<7
+weaviate-client>=4.10,<5
+python-dotenv>=1.0,<2
+# weaviate_setup.py (one-time data load) only
+pandas>=2.2,<4
+requests>=2.32,<3
+tqdm>=4.66,<5
